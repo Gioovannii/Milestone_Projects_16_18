@@ -57,8 +57,7 @@
 			children = (
 				7BC001D127990D5F004C248C /* Milestone_Projects_16_18App.swift */,
 				7BC001E127990E45004C248C /* Model */,
-				7BC001D327990D5F004C248C /* ContentView.swift */,
-				7BC001E2279912CA004C248C /* DiceDetailView.swift */,
+				7BC001E427993095004C248C /* View */,
 				7BC001D527990D60004C248C /* Assets.xcassets */,
 				7BC001D727990D60004C248C /* Preview Content */,
 			);
@@ -79,6 +78,15 @@
 				7BC001DF27990DAF004C248C /* Dice.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7BC001E427993095004C248C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BC001D327990D5F004C248C /* ContentView.swift */,
+				7BC001E2279912CA004C248C /* DiceDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
