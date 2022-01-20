@@ -40,8 +40,7 @@ struct DiceDetailView: View {
                 Text("Tu as choisis : \(faceAmount) faces")
             }
             
-            Button("Start rolling") {
-                
+            Button("Save changes") {
                 dismiss()
             }
         }
