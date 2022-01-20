@@ -52,7 +52,7 @@ struct ContentView: View {
     
     func startRollingDices() {
         let randomDice = Int.random(in: 1...50)
-        let dice = Dice(TotalAmountDice: randomDice, diceAmount: 1, faceAmount: 1)
+        let dice = Dice(totalAmountDice: randomDice, diceAmount: 1, faceAmount: 1)
         diceRolls.append(dice)
     }
 }
